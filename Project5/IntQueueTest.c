@@ -6,7 +6,7 @@ int main(void)
 {
     lntQueue que;
 
-    if (Initialize(&que, 64) == 1
+    if (Initialize(&que, 64) == 1)
     {
         puts("큐의 생성에 실패하였습니다.");
             return 1;

@@ -26,6 +26,9 @@ int Size(const IntQueue* q);
 
 int IsEmpty(const IntQueue* q);
 
-int IsEmpty(const IntQueue* q);
-
 int IsFull(const IntQueue* q);
+
+int Search(const IntQueue* q, int x);
+
+void Print(const IntQueue* q);
+#endif
